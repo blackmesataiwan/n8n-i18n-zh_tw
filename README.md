@@ -55,7 +55,7 @@ UI_INDEX_PATH="${N8N_PATH}/node_modules/n8n-editor-ui/dist/index.html"  # n8n-ed
 ## 翻譯說明
 
 - 翻譯內容基於官方倉庫的英文翻譯檔案：[en.json](https://github.com/n8n-io/n8n/blob/master/packages/frontend/editor-ui/src/plugins/i18n/locales/en.json)
-- 使用gemma3:4b模型進行翻譯，可能存在不完整或錯誤的部分，歡迎自行修改優化
+- 使用gemma3:4b/qwen3:8b模型進行翻譯，使用[繁化姬](https://zhconvert.org/)進行用語修正，可能存在不完整或錯誤的部分，歡迎自行修改優化
 - 目前nodes的相關文字尚未進行翻譯
 
 ## 注意事項
