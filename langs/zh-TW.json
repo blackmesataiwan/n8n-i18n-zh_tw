@@ -1311,7 +1311,7 @@
   "nodeCreator.subcategoryNames.tools": "工具",
   "nodeCreator.subcategoryNames.vectorStores": "向量儲存",
   "nodeCreator.subcategoryNames.miscellaneous": "雜項",
-  "nodeCreator.subcategoryNames.humanInTheLoop": "人類在迴路",
+  "nodeCreator.subcategoryNames.humanInTheLoop": "人工介入",
   "nodeCreator.sectionNames.popular": "受歡迎的",
   "nodeCreator.sectionNames.other": "其他",
   "nodeCreator.sectionNames.sendAndWait": "發送並等待回應",
