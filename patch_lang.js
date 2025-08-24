@@ -27,5 +27,12 @@ if (i18nInstance && i18nInstance.global) {
   const translations = await response.json();
 
   i18n.setLocaleMessage('zh-TW', translations);
-  i18n.locale = 'zh-TW';
+
+  if ('locale' in i18n) {
+    i18n.locale = 'zh-TW';
+  }
+
+  if ('$i18n' in app.config.globalProperties) {
+    app.config.globalProperties.$i18n.locale = 'zh-TW';
+  }
 }
